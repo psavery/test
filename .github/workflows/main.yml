@@ -15,6 +15,9 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
+    - name: Echo ref
+      run: echo ${{ github.ref }}
+
     - name: Build parent
       uses: docker/build-push-action@v1.0.1
       with:
