@@ -23,3 +23,11 @@ jobs:
         path: ./parent
         add_git_labels: true
         push: false
+
+    - name: Build child
+      uses: docker/build-push-action@v1.0.1
+      with:
+        repository: psavery/test
+        tags: child
+        path: ./child
+        add_git_labels: true
