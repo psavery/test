@@ -33,3 +33,4 @@ jobs:
         tags: child
         path: ./child
         add_git_labels: true
+        push: ${{ !startsWith(github.ref, 'refs/pull/') }}
