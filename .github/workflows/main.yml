@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+
+  build:
+    name: build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Build parent
+      uses: docker/build-push-action@v1.0.1
+      with:
+        repository: psavery/test
+        tags: parent
+        path: ./parent
+        add_git_labels: true
+        push: false
