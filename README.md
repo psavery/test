@@ -1,1 +1,1 @@
-![GitHub Actions](https://github.com/psavery/test/workflows/CI/badge.svg)
+![](https://github.com/psavery/test/workflows/CI/badge.svg)
