@@ -1,0 +1,29 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "![GitHub Actions](https://github.com/psavery/test/workflows/CI/badge.svg)",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git cz",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psavery/test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psavery/test/issues"
+  },
+  "homepage": "https://github.com/psavery/test#readme",
+  "dependencies": {
+    "commitizen": "^4.0.4",
+    "semantic-release": "^17.0.7"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  }
+}
