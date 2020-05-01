@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/psavery/test/compare/v1.0.5...v1.0.6) (2020-05-01)
+
+
+### Bug Fixes
+
+* **semantic-release:** fix tag update ([8bc334d](https://github.com/psavery/test/commit/8bc334d18b62ee6a881b7b1cd94cd608acf4c222))
+
 ## [1.0.5](https://github.com/psavery/test/compare/v1.0.4...v1.0.5) (2020-05-01)
 
 
