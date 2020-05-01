@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/psavery/test/compare/v1.0.6...v1.1.0) (2020-05-01)
+
+
+### Features
+
+* **readme.md:** remove "Test" ([4dbba89](https://github.com/psavery/test/commit/4dbba89e4215996d4a9610ad4003e7d941fc4f71))
+
 ## [1.0.6](https://github.com/psavery/test/compare/v1.0.5...v1.0.6) (2020-05-01)
 
 
