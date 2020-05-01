@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/psavery/test/compare/v1.0.0...v1.0.1) (2020-04-30)
+
+
+### Bug Fixes
+
+* **ci:** do not run doc:publish, as it isn't a command ([f07bcf8](https://github.com/psavery/test/commit/f07bcf8d593d125ae87798397be39ac6ddd771f7))
+
 # 1.0.0 (2020-04-30)
 
 
