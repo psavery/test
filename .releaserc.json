@@ -6,7 +6,7 @@
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
     ["@semantic-release/exec", {
-      "prepareCmd": "sed -i 's/v${lastRelease.version}/v${nextRelease.version}/g' README.md && ls && git add README.md && echo 'lastRelease was v${lastRelease.version}'"
+      "prepareCmd": "./scripts/semantic-release/update_readme_badge.sh"
     }],
     ["@semantic-release/git", {
       "message": "chore(release): ${nextRelease.version}\n\n${nextRelease.notes}"
