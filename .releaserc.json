@@ -6,7 +6,7 @@
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
     ["@semantic-release/exec", {
-      "prepareCmd": "./scripts/semantic-release/update_readme_badge.sh"
+      "prepareCmd": "./scripts/semantic-release/update_readme_badge.sh ${lastRelease.version} ${nextRelease.version}"
     }],
     ["@semantic-release/git", {
       "message": "chore(release): ${nextRelease.version}\n\n${nextRelease.notes}"
