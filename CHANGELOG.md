@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/psavery/test/compare/v1.0.4...v1.0.5) (2020-05-01)
+
+
+### Bug Fixes
+
+* **semantic-release:** test new semantic-release/exec ([61f10ed](https://github.com/psavery/test/commit/61f10edd9d376b995b14fafd5aa57a2bd31c3334))
+
 ## [1.0.4](https://github.com/psavery/test/compare/v1.0.3...v1.0.4) (2020-05-01)
 
 
