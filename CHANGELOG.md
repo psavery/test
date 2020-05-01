@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/psavery/test/compare/v1.0.2...v1.0.3) (2020-05-01)
+
+
+### Bug Fixes
+
+* **semantic-release/exec:** move file modification to prepare command ([cf16124](https://github.com/psavery/test/commit/cf161241d15b92e0463cc75fa1b98b01d337bccb))
+
 ## [1.0.2](https://github.com/psavery/test/compare/v1.0.1...v1.0.2) (2020-05-01)
 
 
