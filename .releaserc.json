@@ -5,6 +5,9 @@
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
+    ["@semantic-release/exec", {
+      "publishCmd": "sed -i 's/${lastRelease.version}/${nextRelease.version}/g' README.md && echo 'lastRelease was ${lastRelease.version}'"
+    }],
     ["@semantic-release/git", {
       "message": "chore(release): ${nextRelease.version}\n\n${nextRelease.notes}"
     }]
